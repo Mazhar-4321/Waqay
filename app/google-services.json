@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609550661788",
+    "project_id": "waqay-a20cc",
+    "storage_bucket": "waqay-a20cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609550661788:android:50763e864f16a6a33f5559",
+        "android_client_info": {
+          "package_name": "com.example.waqay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609550661788-je8ker19iofcv3nksbjlt0aqivg4j942.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYlcnbFZ-kvcw00_pfVg_BrNbsB_NtscQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609550661788-je8ker19iofcv3nksbjlt0aqivg4j942.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

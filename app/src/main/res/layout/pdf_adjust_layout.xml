@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ProgressBar
+
+            android:id="@+id/progressBar2"
+            android:layout_width="150dp"
+              android:visibility="gone"
+            android:layout_height="150dp"
+
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginEnd="113dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="113dp"
+            />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi"/>
+
+        <TextView
+            android:id="@+id/txtFlatIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi"
+            android:autoLink="web"/>
+
+        <es.voghdev.pdfviewpager.library.PDFViewPager
+            android:id="@+id/pdfViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+
+            android:layout_gravity="right"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-4dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/plus"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/button_stroke"
+    android:layout_marginLeft="10dp"
+    android:padding="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/saif"
+                android:focusable="false"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:text="Topic"
+
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/saif"
+                android:layout_gravity="bottom"
+                android:paddingTop="5dp"
+                android:visibility="visible"
+                android:gravity="center_vertical"
+                android:focusable="false"
+                android:textSize="12sp"
+
+                android:text="Topic:"
+                android:id="@+id/t_topic_name"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/saif"
+                android:focusable="false"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:text="Level"
+
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/saif"
+                android:text="Topic"
+
+                android:textSize="12sp"
+                android:focusable="false"
+                android:id="@+id/t_level"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/saif"
+                android:focusable="false"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:text="Date"
+
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/saif"
+                android:text="Topic"
+
+                android:textSize="12sp"
+                android:focusable="false"
+                android:id="@+id/t_date"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="PDF"
+                android:focusable="false"
+                android:visibility="visible"
+
+                android:id="@+id/b_pdf"
+                android:textSize="12sp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:focusable="false"
+                android:id="@+id/b_video"
+
+                android:textSize="12sp"
+                android:text="Video"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+           >
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_gravity="right"
+                android:gravity="right"
+                 android:background="@drawable/plus"
+                android:id="@+id/b_plus"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

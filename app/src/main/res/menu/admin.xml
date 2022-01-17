@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/m_upload_homework"
+        android:title="Upload HomeWork"/>
+    <item android:id="@+id/m_validate_homework"
+        android:title="Validate HomeWork"/>
+    <item android:id="@+id/m_upload_question_paper"
+        android:title="Upload Question Paper"/>
+    <item android:id="@+id/m_questions"
+        android:title="Upload Questions"/>
+    <item android:id="@+id/m_upload_profile"
+        android:title="Upload Profile"/>
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/m_home_work"
+        android:title="Home Work"
+        />
+    <item
+        android:visible="false"
+        android:title="Strategy"
+
+        app:showAsAction="never"
+        android:menuCategory="container"
+        android:tooltipText="Hi"
+        android:orderInCategory="2"
+        android:id="@+id/m_strategy">
+        <menu
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <item android:id="@+id/m_topic_wise"
+           android:visible="false"
+           android:title="Topic Wise"/>
+            <item android:id="@+id/m_unit_wise" android:title="Unit Wise"/>
+
+        </menu>
+    </item>
+    <item android:id="@+id/m_ac"
+        android:title="Imp Questions"/>
+    <item android:id="@+id/m_question_paper"
+        android:title="Question Paper"/>
+    <item android:id="@+id/m_quiz"
+        android:visible="false"
+        android:title="Quiz"/>
+
+
+
+    
+</menu>

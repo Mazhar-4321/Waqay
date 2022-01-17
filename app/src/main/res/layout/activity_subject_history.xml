@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/sensation"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubjectHistoryActivity">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubjectHistoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        app:boxBackgroundColor="@color/white"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="wrap_content"
+
+        >
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/a_select_year_and_sem"
+            android:layout_width="match_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/saif"
+            android:hint="Select Year And Semester"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+<GridView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="2"
+    android:layout_marginTop="10dp"
+    android:id="@+id/g_grid_view"
+    android:horizontalSpacing="1dp"
+    android:verticalSpacing="1dp"
+    android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Waqay</string>
+    <item name="TAG_ONLINE_ID" type="id" />
+    <string name="circular_bold">font/saif.ttf</string>
+    <string name="tv_poor">tv_poor</string>
+    <string name="tv_good">tv_good</string>
+    <string name="tv_average">tv_average</string>
+</resources>

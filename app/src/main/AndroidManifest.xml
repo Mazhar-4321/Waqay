@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.waqay">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".NotificationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Waqay">
+        <activity android:name=".NotificationActivity"></activity>
+        <activity android:name=".MustafaActivity" />
+        <activity android:name=".HandeyBro" />
+        <activity android:name=".SaqlainBroActivity" />
+        <activity android:name=".UpdateProfileActivity" />
+        <activity android:name=".UnitWiseStrategyActivity" />
+        <activity android:name=".UploadAcknowledgement" />
+        <activity android:name=".AcknowledgementActivity" />
+        <activity android:name=".MPAndroidActivity" />
+        <activity android:name=".DisplayQuestionPaperActivity" />
+        <activity android:name=".GiveRatingActivity" />
+        <activity android:name=".UploadHomeWorkActivity" />
+        <activity android:name=".ValidateHomeWorkActivity" />
+        <activity android:name=".StudentStrategyActivity" />
+        <activity android:name=".StudentHomeWorkActivity" />
+        <activity
+            android:name=".YoutTubeActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".NewLoginActivity" />
+        <activity android:name=".StudentsSubjectsDisplay" />
+        <activity android:name=".UploadVideoActivity" />
+        <activity android:name=".UploadQuestionsActivity" />
+        <activity android:name=".UploadNotesActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".SubjectHistoryActivity" />
+        <activity
+            android:name=".PDFViewerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".NotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".FirebaseLoginActivity" />
+        <activity android:name=".StartUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirebaseSelectSubjectsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterSubjectsActivity" />
+    </application>
+
+</manifest>

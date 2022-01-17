@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/sensation"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubjectHistoryActivity">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubjectHistoryActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        app:boxBackgroundColor="@color/white"
+        app:hintTextColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="wrap_content"
+
+        >
+
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+            android:id="@+id/a_select_mode"
+            android:textColor="@color/black"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:textColorHint="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/saif"
+            android:hint="Select Unit"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <ExpandableListView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:layout_marginTop="10dp"
+        android:divider="#f89b0f"
+        android:clipChildren="false"
+
+          android:dividerHeight="3dp"
+        android:id="@+id/expandable_list_view"
+        android:backgroundTint="#000000"
+        android:groupIndicator="@null"
+       >
+
+
+    </ExpandableListView>
+    </LinearLayout>
+</LinearLayout>

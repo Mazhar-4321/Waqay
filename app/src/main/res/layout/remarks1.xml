@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+<LinearLayout
+    android:layout_width="match_parent"
+     android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_weight="9"
+        android:fontFamily="@font/saif"
+        android:layout_height="wrap_content"
+        android:text="HandWriting"
+        />
+
+    <EditText
+        android:id="@+id/t_handwriting"
+        android:layout_width="40dp"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHighlight="@color/black"
+        android:textColorLink="@color/black"
+        android:background="@drawable/button_orange_stroke"
+        android:layout_height="40dp"
+
+         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/saif"
+        android:layout_height="30dp"
+        android:text="Neatness"
+        android:layout_weight="9"
+         />
+
+    <EditText
+        android:id="@+id/t_neatness"
+        android:background="@drawable/button_orange_stroke"
+        android:layout_width="40dp"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColor="@color/black"
+        android:layout_height="40dp"
+
+         />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:fontFamily="@font/saif"
+        android:layout_weight="9"
+        android:text="Sentence Framing"
+        />
+
+    <EditText
+        android:id="@+id/t_sentence_framing"
+        android:layout_width="40dp"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHighlight="@color/black"
+        android:background="@drawable/button_orange_stroke"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_neatness"
+        app:layout_constraintVertical_bias="0.045" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView11"
+
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:fontFamily="@font/saif"
+        android:text="Creativity"
+        android:layout_weight="9"
+        />
+
+    <EditText
+        android:id="@+id/t_creativity"
+        android:layout_width="40dp"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button_orange_stroke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t_sentence_framing"
+        app:layout_constraintVertical_bias="0.081" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView13"
+        android:fontFamily="@font/saif"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Presentation"
+        android:layout_weight="9"
+        />
+
+    <EditText
+        android:id="@+id/t_presentation"
+        android:layout_width="40dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:gravity="center"
+        android:background="@drawable/button_orange_stroke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/t_creativity"
+        app:layout_constraintVertical_bias="0.123" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:fontFamily="@font/saif"
+        android:layout_weight="9"
+        android:text="HighLighters"
+        />
+
+    <EditText
+        android:id="@+id/t_highlighters"
+        android:layout_width="40dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="@drawable/button_orange_stroke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" /></LinearLayout>
+    </LinearLayout>
+</LinearLayout>
